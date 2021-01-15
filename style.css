@@ -1,4 +1,21 @@
 
+header{
+    background-color:#1a237e ;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    
+}
+
+body{
+    background-color: #ede7f6;
+}
+
+h2{
+    color: white;
+
+}
+
 .header-container{
     display: flex;
 }
@@ -9,5 +26,19 @@
 
 .navlink{
     display: flex;
-    
+    flex-direction: row;
+    margin-right: 40px;
+
+}
+
+a{
+    color: white;
+}
+
+
+#form{
+    background-color: white;
+    padding: 30px;
+    width: 600px;
+    height: 400px;
 }
