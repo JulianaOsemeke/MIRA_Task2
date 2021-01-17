@@ -14,9 +14,9 @@
               <img src="./images/miraicon.png" alt="miraicon">
                 <h2>Mira Technologies</h2>
             </div>
-            <div class="navlink">
+            <div class="navlink" id="registerbutton">
                 <nav>
-                    <a href="https://www.training.miratechnologiesng.com/bootcamp/index.html">Register</a>
+                    <a  href="https://www.training.miratechnologiesng.com/bootcamp/index.html">Register</a>
                 </nav>
             </div>
          </header><br>
@@ -28,12 +28,15 @@
         </div>
         <div class="form-container">
         <form action="https://www.training.miratechnologiesng.com/bootcamp/index.html" id="form">
-            <label for="email">Email</label>
-                
-                <input type="email"    name="email"   id="email"  required>
+            <div class="inputgroup">
+            <input  type="email"    name="email"   id="email"  required>
+            <label for="email" class="emaillabel">Email</label>
+              </div>  
+              <div>
+            <input type="password" name="password"  id="password"  required>
             
-            <label for="password">Password</label>
-                <input type="password" name="password"  id="login"  required>
+            <label for="password" class="passwordlabel">Password</label>
+        </div>   
                 <br><br>
             
             <input id="button" type="button" value="LOGIN"><br>
@@ -41,7 +44,7 @@
            
             
 
-        </form><br><br>
+        </form><br><br><br>
         <a class="password" href="https://www.training.miratechnologiesng.com/bootcamp/forgot.html" target="_blank">
             <p>Forgot Password</p>
          </a>
