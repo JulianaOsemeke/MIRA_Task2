@@ -2,219 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-
-}
-
-
-   
-      
-    
-    
-
-
-
-
-header{
-    background-color:#1a237e ;
-    height: 65px;
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-body{
-    background-color: #ede7f6;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:16px;
-    
-    
-   
-}
-
-.headerlogo img{
-    max-width: 100%;
-    height: 45px;
-    
-}
-
-h2{
-    color: white;
-
-}
-
-.header-container{
-    display: flex;
-}
-
-.headerlogo{
-    display: flex;
-    align-items: center;
-    
-}
-
-.navlink{
-    border: none;
-    padding: 1px;
-}
-
-
-a.navlink{
-    display: flex;
-    background-color: #1a237e;
-    
-
-
-}
-
-.navlink:hover{
-
-    animation-name: background-color;
-    animation-duration: 500ms;
-    animation-fill-mode: forwards;
-   }
-   
-   @keyframes background-color{
-       100%{
-           background-color:rgb(23, 23, 61);
-       }
-   } 
-   
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-.Loginheader{
-    text-align: center;
-}
-
-.Loginheader img{
-    max-width: 100%;
-    height: 50px;
-}
-
-.Loginheader h3{
-     font-size: 35px;
-     font-weight: 600;
-}
-
-a.password,h3{
-    color: #1a237e;
-    text-decoration: none ;
-    text-align: center;
-    
-
-}
-
-
-
-.form-container{
-    background-color: white;
-    position:relative;
-    top: 40px;
-    left: 450px;
-    padding: 20px;
-    width: 480.5px;
-    height: 300px;
-    border-radius: 15px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,1.2), 0 1px 5px 0 rgba(0,0,0,0.2);
-    cursor: pointer;
-    
-
-    
-}
-
-
-
-
-
-.form-container.inputgroup{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: space-around;
-}
-
-
-.input-group input{
-    
-    width: 400px;
-    height: 50px;
-    margin-top: 20px;
-    margin-left: 5px;
-    color: blue;
-    padding-top: 25px;
-    border: none;
-    border-bottom: 1px solid grey;
-    pointer-events: none;
-    outline: none;
-   
-    
-}
-
-
-.input-group label{
-    position: absolute;
-    left: 30px;
-    width: 100%;
-    height: 100%;
-    margin-top: 25px;
-
-
-    
-    
-
-}
-
-.input-group input:focus~label,
-.input-group input:valid~label{
- transform: translateY(-20px);
- 
- 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-      
-#button{
-    position: absolute;
-    background-color: #1a237e;
-    color: white;
-    width: 50%;
-    height: 50px;
-    font-size: 15px;
-    font-weight: 600;
-    align-content: center;
-    border: none;
-    border-radius: 3px;
-    margin-top: 40px;
-    margin-left: 70px;
-    margin-bottom: 400px;
-    padding-top: 5px;
-    box-shadow:0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,1.2), 0 1px 5px 0 rgba(0,0,0,0.2);
-}
-
-
-
-.password p{
-    margin-top: 80px;
 }
 
 @media only screen and (max-width:468px){
@@ -225,4 +12,168 @@ a.password,h3{
         
     }
 }
+
+@media only screen and (min-width:1020px) {
+    header{
+        background-color:#1a237e ;
+        height: 65px;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     
+    body{
+        background-color: #ede7f6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:16px;
+    }
+    
+    .headerlogo img{
+        max-width: 100%;
+        height: 45px;
+    }
+    
+    h2{
+        color: white;
+    
+    }
+    
+    .header-container{
+        display: flex;
+    }
+    
+    .headerlogo{
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .navlink{
+        border: none;
+        padding: 1px;
+    }
+    
+    
+    a.navlink{
+        display: flex;
+        background-color: #1a237e;
+    }
+    
+    .navlink:hover{
+    
+        animation-name: background-color;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+       }
+       
+       @keyframes background-color{
+           100%{
+               background-color:rgb(23, 23, 61);
+           }
+       } 
+       
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .Loginheader{
+        text-align: center;
+    }
+    
+    .Loginheader img{
+        max-width: 100%;
+        height: 50px;
+    }
+    
+    .Loginheader h3{
+         font-size: 35px;
+         font-weight: 600;
+    }
+    
+    a.password,h3{
+        color: #1a237e;
+        text-decoration: none ;
+        text-align: center;
+        
+    
+    }
+    
+    
+    
+    .form-container{
+        background-color: white;
+        position:relative;
+        top: 40px;
+        left: 450px;
+        padding: 20px;
+        width: 480.5px;
+        height: 300px;
+        border-radius: 15px;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,1.2), 0 1px 5px 0 rgba(0,0,0,0.2);
+        cursor: pointer;
+    }
+    
+    .form-container.inputgroup{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: space-around;
+    }
+    
+    .input-group input{
+        width: 400px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 5px;
+        color: blue;
+        padding-top: 25px;
+        border: none;
+        border-bottom: 1px solid grey;
+        pointer-events: none;
+        outline: none;
+    }
+    
+    
+    .input-group label{
+        position: absolute;
+        left: 30px;
+        width: 100%;
+        height: 100%;
+        margin-top: 25px;
+    }
+    
+    .input-group input:focus~label,
+    .input-group input:valid~label{
+     transform: translateY(-20px);
+    }
+       
+    #button{
+        position: absolute;
+        background-color: #1a237e;
+        color: white;
+        width: 50%;
+        height: 50px;
+        font-size: 15px;
+        font-weight: 600;
+        align-content: center;
+        border: none;
+        border-radius: 3px;
+        margin-top: 40px;
+        margin-left: 70px;
+        margin-bottom: 400px;
+        padding-top: 5px;
+        box-shadow:0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,1.2), 0 1px 5px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    .password p{
+        margin-top: 80px;
+    }
+    
+    
+        
+}
+
